@@ -42,7 +42,7 @@ pip install tkinter pillow python-docx PyPDF2 pytesseract openai
 sudo apt install tesseract-ocr
 ```
 
-- Se for no Windows: Instalar Tesseract OCR e adicionar ao PATH do sistema.
+Se for no Windows: Instalar Tesseract OCR e adicionar ao PATH do sistema.
 
 ---
 
@@ -70,57 +70,42 @@ SmartSorter/
 
 ## Como Instalar
 
-# Clonar o projeto
+### Clonar o projeto
 git clone https://github.com/seu-usuario/SmartSorter.git
 cd SmartSorter
 
-# Criar ambiente virtual (opcional)
+### Criar ambiente virtual (opcional)
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
-# Instalar dependências
+### Instalar dependências
 pip install -r requirements.txt
 
-# Rodar a interface
+### Rodar a interface
 python3 src/smart_sorter.py
 
 ---
 
 ## Como Usar
 
-- Executando a Interface
-
-```bash
-python3 smart_sorter.py
-```
-
 Passos:
 
-Selecione a pasta que deseja organizar
-
-Ative ou desative:
-
-IA para classificação (opcional)
-
-Correção manual antes de mover cada arquivo
-
-Adicione, edite ou remova categorias personalizadas conforme necessário
-
-Clique em Organizar para iniciar
-
-Para desfazer, clique em Desfazer Última Organização
-
-Durante a correção manual, você pode confirmar a categoria sugerida ou escolher/criar uma nova, que será salva na memória com prioridade.
+- Selecione a pasta que deseja organizar
+- Ative ou desative:
+- IA para classificação (opcional)
+- Correção manual antes de mover cada arquivo
+- Adicione, edite ou remova categorias personalizadas conforme necessário
+- Clique em Organizar para iniciar
+- Para desfazer, clique em Desfazer Última Organização
+- Durante a correção manual, você pode confirmar a categoria sugerida ou escolher/criar uma nova, que será salva na memória com prioridade.
 
 ---
 
 ## Memória Incremental e Prioridade do Usuário
 
 - Cada arquivo organizado tem peso na memória
-
 - Correções manuais aumentam o peso, garantindo que suas escolhas tenham prioridade
-
 - IA e classificação automática respeitam essa prioridade
 
 Exemplo de entrada em memoria.json:
