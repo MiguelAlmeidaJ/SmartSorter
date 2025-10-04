@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# JSON de memória local
+memoria.json
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# IDEs
+.vscode/
+.idea/

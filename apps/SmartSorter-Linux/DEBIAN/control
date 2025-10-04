@@ -1,0 +1,9 @@
+Package: smartsorter
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: python3, python3-tk, tesseract-ocr
+Maintainer: João Miguel Almeida <jmalmeida700@gmail.com>
+Description: SmartSorter - Organizador Inteligente de Arquivos
+ A aplicação organiza arquivos automaticamente com IA, OCR e histórico.
