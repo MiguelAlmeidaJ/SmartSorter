@@ -166,4 +166,4 @@ Projeto livre para uso pessoal e comercial. Sinta-se à vontade para adaptar, mo
 ## Contato
 
 - Desenvolvedor: João Miguel Almeida
-- Email: [seu_email@exemplo.com]
+- Email: [jmalmeida700@gmail.com]
