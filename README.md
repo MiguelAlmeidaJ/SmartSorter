@@ -68,6 +68,25 @@ SmartSorter/
 ```
 ---
 
+## Como Instalar
+
+# Clonar o projeto
+git clone https://github.com/seu-usuario/SmartSorter.git
+cd SmartSorter
+
+# Criar ambiente virtual (opcional)
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar a interface
+python3 src/smart_sorter.py
+
+---
+
 ## Como Usar
 
 - Executando a Interface
